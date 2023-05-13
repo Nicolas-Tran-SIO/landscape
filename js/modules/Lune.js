@@ -36,11 +36,6 @@ ctx.beginPath();
 ctx.arc(this.x + this.width / 2, this.y + this.height / 2, this.width / 2, 0, 2 * Math.PI);
 ctx.closePath();
 
-ctx.shadowColor = 'rgba(0, 0, 0, 0.2)';
-ctx.shadowOffsetX = 10;
-ctx.shadowOffsetY = -10;
-ctx.shadowBlur = 20;
-
 ctx.fill();
 ctx.stroke();
 
@@ -65,5 +60,5 @@ const strokeWidth = 1;
 const pesenteur = false;
 forms.push(new Lune(x, y, 100, fillColor, strokeColor, strokeWidth, pesenteur));
 return forms;
-}
+    }
 }

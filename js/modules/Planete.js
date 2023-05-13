@@ -64,7 +64,7 @@ export class Planete extends AbstractForm {
    */
   static buildForms() {
     const forms = []
-    const maxPlanetes = 10
+    const maxPlanetes = 7
     const minSize = 50
     const maxSize = 200
     for (let i = 0; i < maxPlanetes; i++) {
